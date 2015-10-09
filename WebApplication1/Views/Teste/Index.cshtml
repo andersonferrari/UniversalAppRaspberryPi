@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Index</h2>
+<div ng-app="appx" >
+    <div ng-controller="controller">
+        <button title="!!!!" ng-click="alerta()" value="111">2222</button>
+        <br/>
+        <ul>
+            <li ng-repeat="item in testes">{{item.titulo}} teste</li>
+        </ul>
+    </div> 
+</div>
+<script src="~/Scripts/angular.min.js"></script>
+<script src="~/Scripts/App/app.js"></script>
+<script src="~/Scripts/App/controller.js"></script>
+
+
